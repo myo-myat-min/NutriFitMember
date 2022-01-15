@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="732.0" prefWidth="1350.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MemberGUIScenes.HealthyTipsController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1570.0" prefWidth="1360.0">
+         <children>
+            <AnchorPane id="AnchorPane" fx:id="scrollbar" prefHeight="732.0" prefWidth="1360.0" style="-fx-background-color: white;">
+               <children>
+                  <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="385.0" layoutY="397.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="52.0" layoutY="397.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="385.0" layoutY="105.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="62.0" layoutY="107.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="714.0" layoutY="102.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="714.0" layoutY="398.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="1047.0" layoutY="98.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="1047.0" layoutY="397.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Label layoutX="124.0" layoutY="118.0" prefHeight="43.0" prefWidth="146.0" text="VITAMIN C" textFill="ORANGERED">
+                     <font>
+                        <Font name="Arial Black" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="121.0" layoutY="172.0" prefHeight="37.0" prefWidth="179.0" text="Antioxidant, regenerates" textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="111.0" layoutY="220.0" prefHeight="37.0" prefWidth="195.0" text="vitamin E and provides sun" textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="164.0" layoutY="273.0" prefHeight="28.0" prefWidth="92.0" text="protection" textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="451.0" layoutY="417.0" prefHeight="18.0" prefWidth="146.0" text="EAT LESS SALT" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="83.0" layoutY="821.0" prefHeight="37.0" prefWidth="205.0" text="Use a broad-spectrum sunscreen" textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="414.0" layoutY="474.0" prefHeight="43.0" prefWidth="240.0" text="Eating too much salt can raise your" textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="745.0" layoutY="102.0" prefHeight="37.0" prefWidth="205.0" text="Drinking a glass or two of water" textFill="#33cc00">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="755.0" layoutY="133.0" prefHeight="28.0" prefWidth="185.0" text="right when you wake up, is a " textFill="#33cc00">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="745.0" layoutY="153.0" prefHeight="37.0" prefWidth="205.0" text="good way to quickely rehydrate" textFill="#33cc00">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="813.0" layoutY="185.0" prefHeight="18.0" prefWidth="69.0" text="your body" textFill="#33cc00">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1078.0" layoutY="245.0" prefHeight="28.0" prefWidth="205.0" text="Indoor air pollution can be even" textFill="#ff66ff">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1081.0" layoutY="275.0" prefHeight="24.0" prefWidth="199.0" text="worse than outside. Try House " textFill="#ff66ff">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1162.0" layoutY="299.0" prefHeight="24.0" prefWidth="40.0" text="Plants" textFill="#ff66ff">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="93.0" layoutY="398.0" prefHeight="37.0" prefWidth="171.0" text="Always drink water before" textFill="#66a3ff">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="99.0" layoutY="431.0" prefHeight="28.0" prefWidth="171.0" text="urination and never drink" textFill="#66a3ff">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="99.0" layoutY="452.0" prefHeight="43.0" prefWidth="171.0" text="immediately after urinating" textFill="#66a3ff">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="436.0" layoutY="241.0" prefHeight="37.0" prefWidth="171.0" text="Prepare food in a safe and " textFill="#ff33cc">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="474.0" layoutY="275.0" prefHeight="18.0" prefWidth="90.0" text="hygienic way." textFill="#ff33cc">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="412.0" layoutY="290.0" prefHeight="43.0" prefWidth="213.0" text="(Steam, bake, boil or microwave)" textFill="#ff33cc">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="53.0" layoutY="696.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="389.0" layoutY="692.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="51.0" layoutY="980.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="387.0" layoutY="980.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="45.0" layoutY="1275.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="385.0" layoutY="1275.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="714.0" layoutY="692.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="1048.0" layoutY="692.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="714.0" layoutY="980.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="714.0" layoutY="1275.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="1048.0" layoutY="980.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="1047.0" layoutY="1275.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                     <effect>
+                        <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
+                     </effect>
+                  </Rectangle>
+                  <Label layoutX="785.0" layoutY="403.0" prefHeight="28.0" prefWidth="126.0" text="LEMON JUICE" textFill="#ff6600">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="734.0" layoutY="441.0" prefHeight="37.0" prefWidth="229.0" text="Lemon works on acne-prone skin by" textFill="#8d33ff">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="754.0" layoutY="474.0" prefHeight="28.0" prefWidth="205.0" text="reducing both oil secreation and" textFill="#8d33ff">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="784.0" layoutY="502.0" prefHeight="18.0" prefWidth="146.0" text="pimpl-causing bacteria" textFill="#8d33ff">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1133.0" layoutY="405.0" prefHeight="24.0" prefWidth="90.0" text="Headache" textFill="#ff338a">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1083.0" layoutY="446.0" prefHeight="28.0" prefWidth="213.0" text="Try Magnesium(found in banana)" textFill="#ffe333">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1171.0" layoutY="476.0" prefHeight="18.0" prefWidth="14.0" text="or" textFill="#ffe333">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1076.0" layoutY="502.0" prefHeight="28.0" prefWidth="219.0" text="Peppermint oil for immediate effect" textFill="#ffe333">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="114.0" layoutY="710.0" prefHeight="18.0" prefWidth="160.0" text="Do some mind exercise" textFill="#33ff8a">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="88.0" layoutY="736.0" prefHeight="37.0" prefWidth="210.0" text="(read, do a puzzle occasionally)" textFill="#33ff8a">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="447.0" layoutY="858.0" prefHeight="28.0" prefWidth="160.0" text="Do not drink cold water" textFill="#33ffbe">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="465.0" layoutY="886.0" prefHeight="18.0" prefWidth="120.0" text="or water with ice" textFill="#33ffbe">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="762.0" layoutY="704.0" prefHeight="37.0" prefWidth="205.0" text="Yoga can boost your cognitive" textFill="#ffa233">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="766.0" layoutY="741.0" prefHeight="28.0" prefWidth="175.0" text="function and lowers stress" textFill="#ffa233">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1122.0" layoutY="710.0" prefHeight="18.0" prefWidth="120.0" text="NO ALCOHOL" textFill="#ff3393">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1075.0" layoutY="734.0" prefHeight="43.0" prefWidth="240.0" text="It dehydrates and damages the skin" textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1085.0" layoutY="769.0" prefHeight="28.0" prefWidth="200.0" text="This can make us look older." textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="93.0" layoutY="1000.0" prefHeight="18.0" prefWidth="201.0" text="Drinking pomegranate's juice" textFill="#ff5e33">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="88.0" layoutY="1024.0" prefHeight="28.0" prefWidth="213.0" text="daily is good for the heart and " textFill="#ff5e33">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="93.0" layoutY="1044.0" prefHeight="37.0" prefWidth="181.0" text="lower your blood pressure." textFill="#ff5e33">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="438.0" layoutY="1143.0" prefHeight="28.0" prefWidth="181.0" text="Exercise will give you more" textFill="#33ff83">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="428.0" layoutY="1171.0" prefHeight="28.0" prefWidth="215.0" text="energy, even when you're tired." textFill="#33ff83">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="775.0" layoutY="992.0" prefHeight="28.0" prefWidth="165.0" text="Children need exercise." textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="778.0" layoutY="1026.0" prefHeight="18.0" prefWidth="150.0" text="Playing outdoors is a " textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="795.0" layoutY="1052.0" prefHeight="24.0" prefWidth="118.0" text="great beginning." textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1083.0" layoutY="1132.0" prefHeight="37.0" prefWidth="225.0" text="Vitamin A treats sun damage and" textFill="#a233ff">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1122.0" layoutY="1179.0" prefHeight="24.0" prefWidth="130.0" text="cellulite reduction." textFill="#a233ff">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="77.0" layoutY="1290.0" prefHeight="37.0" prefWidth="240.0" text="Drinking coffee can reduce the risk" textFill="#ffa833">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="71.0" layoutY="1327.0" prefHeight="37.0" prefWidth="240.0" text="of depression, especially in women." textFill="#ffa833">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="412.0" layoutY="1290.0" prefHeight="37.0" prefWidth="230.0" text="Laughing is best for the heart and " textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="410.0" layoutY="1327.0" prefHeight="37.0" prefWidth="230.0" text="can increase blood flow by 15-20%" textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="743.0" layoutY="1437.0" prefHeight="37.0" prefWidth="240.0" text="Stretching increases the blood flow" textFill="#33ff77">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="721.0" layoutY="1465.0" prefHeight="37.0" prefWidth="268.0" text="to your muscle and helps avoide injurie" textFill="#33ff77">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1117.0" layoutY="1281.0" prefHeight="24.0" prefWidth="108.0" text="VITAMIN E" textFill="#ff6600">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1069.0" layoutY="1316.0" prefHeight="37.0" prefWidth="241.0" text="ANTIOXIDANT, protects against sun" textFill="#33afff">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1111.0" layoutY="1359.0" prefHeight="24.0" prefWidth="130.0" text="damage and aging." textFill="#33afff">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="470.0" layoutY="512.0" prefHeight="37.0" prefWidth="126.0" text="blood pressure." textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="446.0" layoutY="554.0" prefHeight="28.0" prefWidth="181.0" text="6g salt a day for adults" textFill="#2f2c2b">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="image1" fitHeight="131.0" fitWidth="152.0" layoutX="439.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/5.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image2" fitHeight="114.0" fitWidth="139.0" layoutX="776.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/2.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image3" fitHeight="131.0" fitWidth="181.0" layoutX="1095.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/3.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image4" fitHeight="125.0" fitWidth="200.0" layoutX="101.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/4.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image5" fitHeight="91.0" fitWidth="200.0" layoutX="778.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/6.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image6" fitHeight="91.0" fitWidth="200.0" layoutX="1114.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/7.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image8" fitHeight="150.0" fitWidth="200.0" layoutX="429.0" layoutY="702.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/9.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image7" fitHeight="150.0" fitWidth="200.0" layoutX="88.0" layoutY="785.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/8.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image9" fitHeight="142.0" fitWidth="155.0" layoutX="773.0" layoutY="769.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/10.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image10" fitHeight="114.0" fitWidth="213.0" layoutX="1099.0" layoutY="801.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/11.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image11" fitHeight="125.0" fitWidth="166.0" layoutX="101.0" layoutY="1081.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/12.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image12" fitHeight="150.0" fitWidth="200.0" layoutX="429.0" layoutY="988.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/13.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image13" fitHeight="114.0" fitWidth="177.0" layoutX="775.0" layoutY="1094.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/14.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image14" fitHeight="150.0" fitWidth="200.0" layoutX="1082.0" layoutY="988.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/15.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image15" fitHeight="133.0" fitWidth="193.0" layoutX="87.0" layoutY="1369.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/16.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="422.0" layoutY="1360.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="image16" fitHeight="122.0" fitWidth="200.0" layoutX="438.0" layoutY="1374.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/17.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image17" fitHeight="150.0" fitWidth="200.0" layoutX="757.0" layoutY="1284.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/18.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image18" fitHeight="105.0" fitWidth="200.0" layoutX="1111.0" layoutY="1393.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/19.jpg" />
+                     </image>
+                  </ImageView>
+                  <Rectangle fx:id="titleTemplate" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="433.0" layoutY="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0">
+                     <effect>
+                        <DropShadow blurType="GAUSSIAN" color="#ffbb00" offsetX="3.0" offsetY="3.0" />
+                     </effect>
+                  </Rectangle>
+                  <Text fx:id="titleRecordTrainerAtt" layoutX="460.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Healthy Tips" textAlignment="CENTER" wrappingWidth="445.3603515625">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Text>
+                  <JFXDrawer fx:id="adminDrawer" layoutY="96.0" prefHeight="180.0" prefWidth="180.0" />
+                  <JFXHamburger fx:id="adminMenu" layoutX="21.0" layoutY="50.0" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
