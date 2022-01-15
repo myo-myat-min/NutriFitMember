@@ -19,12 +19,12 @@ import java.util.ArrayList;
 public class schedule_table {
 
     public static void create_table() {
-        String sql = "Create table Schedule("
+        String sql = "Create table schedule("
                 + "id varchar(50) primary key  ,"
                 + "schedule_date Date  not null ,"
                 + "content varchar(100) not null ,"
                 + "trainer_id varchar(50) not null,"
-                + "FOREIGN KEY (`TRAINER_ID`) REFERENCES `trainer`(`id`) ON DELETE RESTRICT ON UPDATE RESTRICT );";
+                + "FOREIGN KEY (`trainer_id`) REFERENCES `trainer`(`id`) ON UPDATE CASCADE ON DELETE CASCADE);";
         try (Connection con = ConnectDB.CreateConnection();
                 PreparedStatement ps = con.prepareStatement(sql)) {
 

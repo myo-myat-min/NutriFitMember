@@ -10,34 +10,23 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-/**
- *
- * @author Soe min hein
- */
 public class CreateDB {
 
-    private static final String url = "jdbc:mysql://localhost/";
-    private static final String username = "root";
-    private static final String password = "";
+	private static final String url = "jdbc:mysql://localhost";
+	private static final String username = "root";
+	private static final String password = "";
 
-    public static Connection createConnection() throws SQLException, ClassNotFoundException {
-        return DriverManager.getConnection(url, username, password);
-    }
+	public static Connection createConnection() throws SQLException, ClassNotFoundException {
+		return DriverManager.getConnection(url, username, password);
+	}
 
-    public static void create_db() {
-        String sql = "CREATE DATABASE Nutri_Fit";
+	public static void create_db() {
+		String sql = "CREATE DATABASE Nutri_Fit_Member";
 
-        try (Connection con = createConnection();
-                PreparedStatement ps = con.prepareStatement(sql);) {
-      ps.execute();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static void main(String[] args) {
-       // create_db();
-       
-    }
-
+		try (Connection con = createConnection(); PreparedStatement ps = con.prepareStatement(sql);) {
+			ps.execute();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 }
