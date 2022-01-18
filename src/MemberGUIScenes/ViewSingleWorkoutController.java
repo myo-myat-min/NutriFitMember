@@ -198,7 +198,7 @@ public class ViewSingleWorkoutController implements Initializable {
 //            System.out.println(Files.deleteIfExists(f.toPath()));
 //
 //            Parent trainerSignUpScene = FXMLLoader.load(getClass().getResource("ViewWorkoutScene.fxml"));
-//            Scene scene = new Scene(trainerSignUpScene, 1360, 700);
+//            Scene scene = new Scene(trainerSignUpScene);
 //            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
 //            window.setResizable(false);
 //            window.setScene(scene);
@@ -214,7 +214,7 @@ public class ViewSingleWorkoutController implements Initializable {
             try {
                 mediaPlayer.dispose();
                 Parent trainerSignUpScene = FXMLLoader.load(getClass().getResource("LooseWeightWorkoutScene.fxml"));
-                Scene scene = new Scene(trainerSignUpScene, 1360, 700);
+                Scene scene = new Scene(trainerSignUpScene);
                 Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 window.setResizable(false);
                 window.setScene(scene);
@@ -226,7 +226,7 @@ public class ViewSingleWorkoutController implements Initializable {
             try {
                 mediaPlayer.dispose();
                 Parent trainerSignUpScene = FXMLLoader.load(getClass().getResource("GainWeightWorkoutScene.fxml"));
-                Scene scene = new Scene(trainerSignUpScene, 1360, 700);
+                Scene scene = new Scene(trainerSignUpScene);
                 Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 window.setResizable(false);
                 window.setScene(scene);
@@ -238,7 +238,7 @@ public class ViewSingleWorkoutController implements Initializable {
             try {
                 mediaPlayer.dispose();
                 Parent trainerSignUpScene = FXMLLoader.load(getClass().getResource("GetFitterWorkoutScene.fxml"));
-                Scene scene = new Scene(trainerSignUpScene, 1360, 700);
+                Scene scene = new Scene(trainerSignUpScene);
                 Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 window.setResizable(false);
                 window.setScene(scene);
@@ -250,7 +250,7 @@ public class ViewSingleWorkoutController implements Initializable {
             try {
                 mediaPlayer.dispose();
                 Parent trainerSignUpScene = FXMLLoader.load(getClass().getResource("AllWorkoutScene.fxml"));
-                Scene scene = new Scene(trainerSignUpScene, 1360, 700);
+                Scene scene = new Scene(trainerSignUpScene);
                 Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 window.setResizable(false);
                 window.setScene(scene);

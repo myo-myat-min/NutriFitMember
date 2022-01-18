@@ -156,7 +156,7 @@ public class MemberSignInController implements Initializable {
                                     loader.setLocation(getClass().getResource("MemberMyAccountScene.fxml"));
                                     Parent trainerMyAccountScene = loader.load();
                                     MemberMyAccountController controller = loader.getController();
-                                    Scene scene = new Scene(trainerMyAccountScene, 1360, 700);
+                                    Scene scene = new Scene(trainerMyAccountScene);
                                     Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                                     window.setResizable(false);
                                     window.setScene(scene);

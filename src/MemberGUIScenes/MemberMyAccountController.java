@@ -356,7 +356,7 @@ public class MemberMyAccountController implements Initializable {
 //                            if (alertRecorded.getResult() == ButtonType.OK) {
 //                                try {
 //                                    Parent trainerSignUpScene = FXMLLoader.load(getClass().getResource("InvoiceScene.fxml"));
-//                                    Scene scene = new Scene(trainerSignUpScene, 1360, 700);
+//                                    Scene scene = new Scene(trainerSignUpScene);
 //                                    Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
 //                                    window.setResizable(false);
 //                                    window.setScene(scene);
@@ -1114,7 +1114,7 @@ public class MemberMyAccountController implements Initializable {
                         loader.setLocation(getClass().getResource("MemberMyAccountScene.fxml"));
                         Parent trainerMyAccountScene = loader.load();
                         MemberMyAccountController controller = loader.getController();
-                        Scene scene = new Scene(trainerMyAccountScene, 1360, 700);
+                        Scene scene = new Scene(trainerMyAccountScene);
                         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                         if (rs.getString("email").equals(window.getTitle())) {
                             controller.addingData(rs.getString("name"), rs.getString("email"), rs.getString("password"), rs.getString("nrc"), rs.getString("phone_no"),
@@ -1150,7 +1150,7 @@ public class MemberMyAccountController implements Initializable {
                         loader.setLocation(getClass().getResource("FXMLAllCalculators.fxml"));
                         Parent trainerMyAccountScene = loader.load();
                         FXMLAllCalculatorsController controller = loader.getController();
-                        Scene scene = new Scene(trainerMyAccountScene, 1360, 700);
+                        Scene scene = new Scene(trainerMyAccountScene);
                         if (!rs.getString("membership_id").equals("MS-001")) {
                             windowWithCondi.setResizable(false);
                             windowWithCondi.setScene(scene);
@@ -1186,7 +1186,7 @@ public class MemberMyAccountController implements Initializable {
                         loader.setLocation(getClass().getResource("MainWorkoutScene.fxml"));
                         Parent trainerMyAccountScene = loader.load();
                         MainWorkoutController controller = loader.getController();
-                        Scene scene = new Scene(trainerMyAccountScene, 1360, 700);
+                        Scene scene = new Scene(trainerMyAccountScene);
                         if (!rs.getString("membership_id").equals("MS-001") && !rs.getString("membership_id").equals("MS-002") && 
                                 !rs.getString("membership_id").equals("MS-003")) {
                             windowWithCondi.setResizable(false);
@@ -1211,7 +1211,7 @@ public class MemberMyAccountController implements Initializable {
         viewScheduleButton.setOnAction((event) -> {
             try {
                 Parent memberSignUpScene = FXMLLoader.load(getClass().getResource("ViewScheduleScene.fxml"));
-                Scene scene = new Scene(memberSignUpScene, 1360, 700);
+                Scene scene = new Scene(memberSignUpScene);
                 scene.getStylesheets().add("CSS/TableDesign.css");
                 Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 window.setResizable(false);
@@ -1226,7 +1226,7 @@ public class MemberMyAccountController implements Initializable {
         healthyTipsButton.setOnAction((event) -> {
             try {
                 Parent memberSignUpScene = FXMLLoader.load(getClass().getResource("HealthyTipsScene.fxml"));
-                Scene scene = new Scene(memberSignUpScene, 1360, 700);
+                Scene scene = new Scene(memberSignUpScene);
                 Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 window.setResizable(false);
                 window.setScene(scene);
@@ -1243,7 +1243,7 @@ public class MemberMyAccountController implements Initializable {
                 alert.showAndWait();
                 if (alert.getResult() == ButtonType.YES) {
                     Parent trainerSignUpScene = FXMLLoader.load(getClass().getResource("MemberSignInScene.fxml"));
-                    Scene scene = new Scene(trainerSignUpScene, 1360, 700);
+                    Scene scene = new Scene(trainerSignUpScene);
                     Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                     window.setTitle("NutriFit");
                     window.setResizable(false);

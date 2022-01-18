@@ -96,7 +96,7 @@ public class ViewScheduleController implements Initializable {
 //    void clearPressedAction(MouseEvent event) {
 //        try {
 //            Parent memberSignUpScene = FXMLLoader.load(getClass().getResource("ViewScheduleScene.fxml"));
-//            Scene scene = new Scene(memberSignUpScene, 1360, 700);
+//            Scene scene = new Scene(memberSignUpScene);
 //            scene.getStylesheets().add("CSS/TableDesign.css");
 //            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
 //            window.setResizable(false);

@@ -23,7 +23,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent memberSignUpScene = FXMLLoader.load(getClass().getResource("MemberSignInScene.fxml"));
-        Scene scene = new Scene(memberSignUpScene, 1360, 700);
+        Scene scene = new Scene(memberSignUpScene);
         stage.setOnCloseRequest((event) -> {
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "Are you sure to exit?", ButtonType.YES, ButtonType.NO);
             alert.showAndWait();
