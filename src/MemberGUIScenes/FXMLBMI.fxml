@@ -14,162 +14,154 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="732.0" prefWidth="1366.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MemberGUIScenes.FXMLBMIController">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1220.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MemberGUIScenes.FXMLBMIController">
     <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="364.0" layoutX="268.0" layoutY="-9.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="584.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="180.0" layoutX="372.0" layoutY="-19.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="277.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="424.0" layoutX="151.0" layoutY="429.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="545.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="291.0" layoutX="605.0" layoutY="519.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="328.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="1274.0" layoutY="512.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="226.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="856.0" layoutY="662.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="481.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="246.0" layoutX="1124.0" layoutY="307.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="399.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="205.0" layoutX="492.0" layoutY="647.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="226.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="267.0" layoutX="-7.0" layoutY="-30.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="408.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="438.0" layoutX="-82.0" layoutY="69.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="577.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="473.0" layoutX="-18.0" layoutY="291.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="445.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="246.0" layoutX="1314.0" layoutY="158.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="261.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="128.0" layoutX="979.0" layoutY="-13.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="295.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="221.0" layoutX="-57.0" layoutY="203.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="188.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="246.0" layoutX="1229.0" layoutY="-53.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="261.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="276.0" layoutX="-3.0" layoutY="384.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="226.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="260.0" layoutX="86.0" layoutY="601.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="211.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="318.0" layoutX="804.0" layoutY="261.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="163.0" />
-      <Rectangle fx:id="recthree" arcHeight="30.0" arcWidth="30.0" fill="#ffbb00" height="388.0" layoutX="177.0" layoutY="174.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="447.0">
+      <Label fx:id="lblweight" layoutX="144.0" layoutY="431.0" prefHeight="27.0" prefWidth="74.0" text="Weight">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="normal1" arcHeight="5.0" arcWidth="5.0" fill="#a4000b" height="37.0" layoutX="833.0" layoutY="177.0" stroke="BLACK" strokeType="INSIDE" width="291.0" />
+      <Rectangle fx:id="normal2" arcHeight="5.0" arcWidth="5.0" fill="#f80800" height="37.0" layoutX="834.0" layoutY="227.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
+      <Rectangle fx:id="normal3" arcHeight="5.0" arcWidth="5.0" fill="#ffbb00" height="37.0" layoutX="834.0" layoutY="281.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
+      <Rectangle fx:id="normal4" arcHeight="5.0" arcWidth="5.0" fill="#10eb2a" height="37.0" layoutX="833.0" layoutY="340.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
+      <Rectangle fx:id="normal5" arcHeight="5.0" arcWidth="5.0" fill="#ffbb00" height="37.0" layoutX="834.0" layoutY="396.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
+      <Rectangle fx:id="normal6" arcHeight="5.0" arcWidth="5.0" fill="#ff3737" height="37.0" layoutX="833.0" layoutY="454.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
+      <Rectangle fx:id="normal7" arcHeight="5.0" arcWidth="5.0" fill="#f80800" height="37.0" layoutX="833.0" layoutY="512.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
+      <Rectangle fx:id="normal8" arcHeight="5.0" arcWidth="5.0" fill="#a4000b" height="37.0" layoutX="833.0" layoutY="568.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
+      <Rectangle fx:id="recthree" arcHeight="30.0" arcWidth="30.0" fill="#ffbb00" height="388.0" layoutX="109.0" layoutY="170.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="447.0">
          <effect>
             <DropShadow color="#8a8888" offsetX="0.5" offsetY="0.5" />
          </effect></Rectangle>
-      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="102.0" layoutX="193.0" layoutY="424.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="414.0">
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="102.0" layoutX="125.0" layoutY="420.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="414.0">
          <effect>
             <DropShadow color="#8a8888" />
          </effect>
       </Rectangle>
-      <Label fx:id="lblweight" layoutX="212.0" layoutY="435.0" prefHeight="27.0" prefWidth="74.0" text="Weight">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <JFXSlider fx:id="sliderweight" layoutX="213.0" layoutY="469.0" max="200.0" min="1.0" prefHeight="37.0" prefWidth="281.0" showTickLabels="true" showTickMarks="true" value="1.0" />
-      <JFXTextField fx:id="txtweight" focusColor="BLACK" labelFloat="true" layoutX="511.0" layoutY="467.0" onMousePressed="#weightMousePressedAction" prefHeight="26.0" prefWidth="86.0" promptText="Weight(kg)" unFocusColor="BLACK">
+      <JFXSlider fx:id="sliderweight" layoutX="145.0" layoutY="465.0" max="200.0" min="1.0" prefHeight="37.0" prefWidth="281.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <JFXTextField fx:id="txtweight" focusColor="BLACK" labelFloat="true" layoutX="443.0" layoutY="463.0" onMousePressed="#weightMousePressedAction" prefHeight="26.0" prefWidth="86.0" promptText="Weight(kg)" unFocusColor="BLACK">
          <font>
             <Font size="15.0" />
          </font></JFXTextField>
-      <Rectangle fx:id="normal1" arcHeight="5.0" arcWidth="5.0" fill="#a4000b" height="37.0" layoutX="892.0" layoutY="181.0" stroke="BLACK" strokeType="INSIDE" width="291.0" />
-      <Rectangle fx:id="normal2" arcHeight="5.0" arcWidth="5.0" fill="#f80800" height="37.0" layoutX="893.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
-      <Rectangle fx:id="normal3" arcHeight="5.0" arcWidth="5.0" fill="#ffbb00" height="37.0" layoutX="893.0" layoutY="285.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
-      <Rectangle fx:id="normal4" arcHeight="5.0" arcWidth="5.0" fill="#10eb2a" height="37.0" layoutX="892.0" layoutY="344.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
-      <Rectangle fx:id="normal5" arcHeight="5.0" arcWidth="5.0" fill="#ffbb00" height="37.0" layoutX="893.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
-      <Rectangle fx:id="normal6" arcHeight="5.0" arcWidth="5.0" fill="#ff3737" height="37.0" layoutX="892.0" layoutY="458.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
-      <Rectangle fx:id="normal7" arcHeight="5.0" arcWidth="5.0" fill="#f80800" height="37.0" layoutX="892.0" layoutY="516.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
-      <Rectangle fx:id="normal8" arcHeight="5.0" arcWidth="5.0" fill="#a4000b" height="37.0" layoutX="892.0" layoutY="572.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="291.0" />
-      <Label layoutX="950.0" layoutY="189.0" text="Very Severly Underweight &lt;16" textFill="#fffefe">
+      <Label layoutX="882.0" layoutY="185.0" text="Very Severly Underweight &lt;16" textFill="#fffefe">
          <font>
             <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="961.0" layoutY="239.0" text="Severly Underweight 16-17" textFill="#fffefe">
+      <Label layoutX="893.0" layoutY="235.0" text="Severly Underweight 16-17" textFill="#fffefe">
          <font>
             <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="978.0" layoutY="293.0" text="Underweight 17-18.5" textFill="#fffefe">
+      <Label layoutX="910.0" layoutY="289.0" text="Underweight 17-18.5" textFill="#fffefe">
          <font>
             <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="986.0" layoutY="352.0" text="Normal 18.5-25" textFill="#fffefe">
+      <Label layoutX="918.0" layoutY="348.0" text="Normal 18.5-25" textFill="#fffefe">
          <font>
             <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="988.0" layoutY="408.0" text="Overweight 25-30" textFill="#fffefe">
+      <Label layoutX="920.0" layoutY="404.0" text="Overweight 25-30" textFill="#fffefe">
          <font>
             <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="978.0" layoutY="466.0" text="Obese Class1 30-35" textFill="#fffefe">
+      <Label layoutX="910.0" layoutY="462.0" text="Obese Class1 30-35" textFill="#fffefe">
          <font>
             <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="978.0" layoutY="524.0" text="Obese Class2 35-40" textFill="#fffefe">
+      <Label layoutX="910.0" layoutY="520.0" text="Obese Class2 35-40" textFill="#fffefe">
          <font>
             <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="978.0" layoutY="580.0" text="Extreme Obese &gt;40" textFill="#fffefe">
+      <Label layoutX="910.0" layoutY="576.0" text="Extreme Obese &gt;40" textFill="#fffefe">
          <font>
             <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="752.0" layoutY="131.0" prefHeight="26.0" prefWidth="33.0" text="BMI" textFill="#905e31">
+      <Label layoutX="684.0" layoutY="127.0" prefHeight="26.0" prefWidth="33.0" text="BMI" textFill="#905e31">
          <font>
             <Font name="Arial Black" size="13.0" />
          </font>
       </Label>
-      <Label layoutX="724.0" layoutY="304.0" prefHeight="26.0" prefWidth="90.0" text="Ideal Weight" textFill="#905e31">
+      <Label layoutX="656.0" layoutY="300.0" prefHeight="26.0" prefWidth="90.0" text="Ideal Weight" textFill="#905e31">
          <font>
             <Font name="Arial Black" size="13.0" />
          </font>
       </Label>
-      <Label layoutX="758.0" layoutY="492.0" prefHeight="26.0" prefWidth="26.0" text="Fat" textFill="#905e31">
+      <Label layoutX="690.0" layoutY="488.0" prefHeight="26.0" prefWidth="26.0" text="Fat" textFill="#905e31">
          <font>
             <Font name="Arial Black" size="13.0" />
          </font>
       </Label>
-      <Circle fill="#905e31" layoutX="769.0" layoutY="217.0" radius="42.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-      <Circle fill="#905e31" layoutX="771.0" layoutY="393.0" radius="42.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-      <Circle fill="#905e31" layoutX="771.0" layoutY="573.0" radius="42.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-      <Text fx:id="bmiresult" fill="WHITE" layoutX="731.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="74.0000057220459">
+      <Circle fill="#905e31" layoutX="701.0" layoutY="213.0" radius="42.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#905e31" layoutX="703.0" layoutY="389.0" radius="42.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#905e31" layoutX="703.0" layoutY="569.0" radius="42.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Text fx:id="bmiresult" fill="WHITE" layoutX="663.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="74.0000057220459">
          <font>
             <Font name="System Bold" size="15.0" />
          </font></Text>
-      <Text fx:id="fatresult" fill="WHITE" layoutX="734.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="74.0000057220459">
+      <Text fx:id="fatresult" fill="WHITE" layoutX="666.0" layoutY="575.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="74.0000057220459">
          <font>
             <Font name="System Bold" size="15.0" />
          </font></Text>
-      <Text fx:id="idealweightresult" fill="WHITE" layoutX="734.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="74.0000057220459">
+      <Text fx:id="idealweightresult" fill="WHITE" layoutX="666.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="74.0000057220459">
          <font>
             <Font name="System Bold" size="15.0" />
          </font></Text>
-      <SVGPath fx:id="backArrowShape" content="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zm28.9-143.6L209.4 288H392c13.3 0 24-10.7 24-24v-16c0-13.3-10.7-24-24-24H209.4l75.5-72.4c9.7-9.3 9.9-24.8.4-34.3l-11-10.9c-9.4-9.4-24.6-9.4-33.9 0L107.7 239c-9.4 9.4-9.4 24.6 0 33.9l132.7 132.7c9.4 9.4 24.6 9.4 33.9 0l11-10.9c9.5-9.5 9.3-25-.4-34.3z" fill="WHITE" layoutX="-217.0" layoutY="-195.0" onMouseEntered="#backArrowMouseEnteredAction" onMouseExited="#backArrowMouseExitedAction" onMousePressed="#backArrowMousePressedAction" onMouseReleased="#backArrowMouseReleasedAction" scaleX="0.08" scaleY="0.08">
-         <effect>
-            <DropShadow color="#8a8888" height="83.02" offsetX="10.0" offsetY="10.0" radius="47.6825" width="109.71" />
-         </effect>
-      </SVGPath>
-      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="102.0" layoutX="195.0" layoutY="197.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="414.0">
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="102.0" layoutX="127.0" layoutY="193.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="414.0">
          <effect>
             <DropShadow color="#8a8888" />
          </effect>
       </Rectangle>
-      <Label fx:id="lblage" layoutX="212.0" layoutY="207.0" prefHeight="27.0" prefWidth="50.0" text="Age">
+      <Label fx:id="lblage" layoutX="144.0" layoutY="203.0" prefHeight="27.0" prefWidth="50.0" text="Age">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <JFXSlider fx:id="sliderage" layoutX="212.0" layoutY="246.0" min="1.0" prefHeight="37.0" prefWidth="281.0" showTickLabels="true" showTickMarks="true" value="1.0" />
-      <JFXTextField fx:id="txtage" focusColor="BLACK" labelFloat="true" layoutX="511.0" layoutY="239.0" onMousePressed="#ageMousePressedAction" prefHeight="26.0" prefWidth="86.0" promptText="Age" unFocusColor="BLACK">
+      <JFXSlider fx:id="sliderage" layoutX="144.0" layoutY="242.0" min="1.0" prefHeight="37.0" prefWidth="281.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <JFXTextField fx:id="txtage" focusColor="BLACK" labelFloat="true" layoutX="443.0" layoutY="235.0" onMousePressed="#ageMousePressedAction" prefHeight="26.0" prefWidth="86.0" promptText="Age" unFocusColor="BLACK">
          <font>
             <Font size="15.0" />
          </font></JFXTextField>
-      <Circle fx:id="completeCircHeight" fill="RED" layoutX="474.0" layoutY="60.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-      <Circle fx:id="completeCircWeight" fill="RED" layoutX="474.0" layoutY="61.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-      <Circle fx:id="completeCircAge" fill="RED" layoutX="474.0" layoutY="61.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="102.0" layoutX="193.0" layoutY="310.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="414.0">
+      <Circle fx:id="completeCircHeight" fill="RED" layoutX="406.0" layoutY="56.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fx:id="completeCircWeight" fill="RED" layoutX="406.0" layoutY="57.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fx:id="completeCircAge" fill="RED" layoutX="406.0" layoutY="57.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="102.0" layoutX="125.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="414.0">
          <effect>
             <DropShadow color="#8a8888" />
          </effect>
       </Rectangle>
-      <Label fx:id="lblheight" layoutX="212.0" layoutY="321.0" prefHeight="27.0" prefWidth="74.0" text="Height">
+      <Label fx:id="lblheight" layoutX="144.0" layoutY="317.0" prefHeight="27.0" prefWidth="74.0" text="Height">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <JFXSlider fx:id="sliderheight" layoutX="212.0" layoutY="357.0" majorTickUnit="50.0" max="400.0" min="1.0" prefHeight="37.0" prefWidth="281.0" showTickLabels="true" showTickMarks="true" value="1.0" />
-      <JFXTextField fx:id="txtheight" focusColor="BLACK" labelFloat="true" layoutX="511.0" layoutY="353.0" onMousePressed="#heightMousePressedAction" prefHeight="26.0" prefWidth="86.0" promptText="Height(cm)" unFocusColor="BLACK">
+      <JFXSlider fx:id="sliderheight" layoutX="144.0" layoutY="353.0" majorTickUnit="50.0" max="400.0" min="1.0" prefHeight="37.0" prefWidth="281.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+      <JFXTextField fx:id="txtheight" focusColor="BLACK" labelFloat="true" layoutX="443.0" layoutY="349.0" onMousePressed="#heightMousePressedAction" prefHeight="26.0" prefWidth="86.0" promptText="Height(cm)" unFocusColor="BLACK">
          <font>
             <Font size="15.0" />
          </font></JFXTextField>
-      <JFXRadioButton fx:id="male" layoutX="437.0" layoutY="127.0" prefHeight="27.0" prefWidth="66.0" selected="true" text="Male" textAlignment="CENTER">
+      <JFXRadioButton fx:id="male" layoutX="369.0" layoutY="123.0" prefHeight="27.0" prefWidth="66.0" selected="true" text="Male" textAlignment="CENTER">
          <font>
             <Font size="15.0" />
          </font>
@@ -177,68 +169,73 @@
             <ToggleGroup fx:id="gengen" />
          </toggleGroup>
       </JFXRadioButton>
-      <JFXRadioButton fx:id="female" layoutX="532.0" layoutY="127.0" prefHeight="27.0" prefWidth="92.0" text="Female" textAlignment="CENTER" toggleGroup="$gengen">
+      <JFXRadioButton fx:id="female" layoutX="464.0" layoutY="123.0" prefHeight="27.0" prefWidth="92.0" text="Female" textAlignment="CENTER" toggleGroup="$gengen">
          <font>
             <Font size="15.0" />
          </font>
       </JFXRadioButton>
-      <JFXButton fx:id="buttoncalculate" buttonType="RAISED" layoutX="518.0" layoutY="584.0" onMousePressed="#calculateMousePressedAction" onMouseReleased="#calculateMouseReleasedAction" prefHeight="34.0" prefWidth="102.0" ripplerFill="#35ae05" style="-fx-background-color: #ffbb00;" text="Calculate" textFill="WHITE">
+      <JFXButton fx:id="buttoncalculate" buttonType="RAISED" layoutX="450.0" layoutY="580.0" onMousePressed="#calculateMousePressedAction" onMouseReleased="#calculateMouseReleasedAction" prefHeight="34.0" prefWidth="102.0" ripplerFill="#35ae05" style="-fx-background-color: #ffbb00;" text="Calculate" textFill="WHITE">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </JFXButton>
-      <Rectangle fx:id="titleTemplate" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="433.0" layoutY="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0">
+      <Rectangle fx:id="titleTemplate" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="366.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0">
          <effect>
             <DropShadow blurType="GAUSSIAN" color="#ffbb00" offsetX="3.0" offsetY="3.0" />
          </effect>
       </Rectangle>
-      <Text fx:id="titleRecordTrainerAtt" layoutX="460.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMI Calculator" textAlignment="CENTER" wrappingWidth="445.3603515625">
+      <Text fx:id="titleRecordTrainerAtt" layoutX="392.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMI Calculator" textAlignment="CENTER" wrappingWidth="445.3603515625">
          <font>
             <Font size="30.0" />
          </font>
       </Text>
-      <Circle fx:id="ageCircle" fill="RED" layoutX="588.0" layoutY="225.0" opacity="0.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-      <Text fill="WHITE" layoutX="582.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x" wrappingWidth="11.59716796875">
+      <Circle fx:id="ageCircle" fill="RED" layoutX="520.0" layoutY="221.0" opacity="0.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Text fill="WHITE" layoutX="514.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x" wrappingWidth="11.59716796875">
          <font>
             <Font name="System Bold" size="21.0" />
          </font>
       </Text>
-      <Circle fx:id="heightCircle" fill="RED" layoutX="588.0" layoutY="338.0" opacity="0.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-      <Text fill="WHITE" layoutX="582.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x" wrappingWidth="11.59716796875">
+      <Circle fx:id="heightCircle" fill="RED" layoutX="520.0" layoutY="334.0" opacity="0.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Text fill="WHITE" layoutX="514.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x" wrappingWidth="11.59716796875">
          <font>
             <Font name="System Bold" size="21.0" />
          </font>
       </Text>
-      <Circle fx:id="weightCircle" fill="RED" layoutX="588.0" layoutY="452.0" opacity="0.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
-      <Text fill="WHITE" layoutX="582.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x" wrappingWidth="11.59716796875">
+      <Circle fx:id="weightCircle" fill="RED" layoutX="520.0" layoutY="448.0" opacity="0.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Text fill="WHITE" layoutX="514.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x" wrappingWidth="11.59716796875">
          <font>
             <Font name="System Bold" size="21.0" />
          </font>
       </Text>
-      <Text fx:id="invalidWeight" fill="RED" layoutX="509.0" layoutY="444.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invalid weight" textAlignment="CENTER" wrappingWidth="90.00000103283674">
+      <Text fx:id="invalidWeight" fill="RED" layoutX="441.0" layoutY="440.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invalid weight" textAlignment="CENTER" wrappingWidth="90.00000103283674">
          <font>
             <Font name="System Bold" size="11.0" />
          </font>
       </Text>
-      <Text fx:id="invalidHeight" fill="RED" layoutX="508.0" layoutY="332.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invalid height" textAlignment="CENTER" wrappingWidth="91.9999948143959">
+      <Text fx:id="invalidHeight" fill="RED" layoutX="440.0" layoutY="328.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invalid height" textAlignment="CENTER" wrappingWidth="91.9999948143959">
          <font>
             <Font name="System Bold" size="11.0" />
          </font>
       </Text>
-      <Text fx:id="invalidAge" fill="RED" layoutX="532.0" layoutY="221.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invalid age" textAlignment="CENTER" wrappingWidth="73.99999368190765">
+      <Text fx:id="invalidAge" fill="RED" layoutX="464.0" layoutY="217.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invalid age" textAlignment="CENTER" wrappingWidth="73.99999368190765">
          <font>
             <Font name="System Bold" size="11.0" />
          </font>
       </Text>
-      <Text fx:id="emptyNoti" fill="RED" layoutX="257.0" layoutY="607.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty fields are not allowed" textAlignment="CENTER" wrappingWidth="229.3603364378214">
+      <Text fx:id="emptyNoti" fill="RED" layoutX="189.0" layoutY="603.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Empty fields are not allowed" textAlignment="CENTER" wrappingWidth="229.3603364378214">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Label alignment="CENTER" layoutX="889.0" layoutY="131.0" prefHeight="26.0" prefWidth="291.0" text="BMI Classification" textAlignment="CENTER" textFill="#35ae50">
+      <Label alignment="CENTER" layoutX="821.0" layoutY="127.0" prefHeight="26.0" prefWidth="291.0" text="BMI Classification" textAlignment="CENTER" textFill="#35ae50">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
+      <SVGPath fx:id="backArrowShape" content="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zm28.9-143.6L209.4 288H392c13.3 0 24-10.7 24-24v-16c0-13.3-10.7-24-24-24H209.4l75.5-72.4c9.7-9.3 9.9-24.8.4-34.3l-11-10.9c-9.4-9.4-24.6-9.4-33.9 0L107.7 239c-9.4 9.4-9.4 24.6 0 33.9l132.7 132.7c9.4 9.4 24.6 9.4 33.9 0l11-10.9c9.5-9.5 9.3-25-.4-34.3z" fill="WHITE" layoutX="-217.0" layoutY="-195.0" onMouseEntered="#backArrowMouseEnteredAction" onMouseExited="#backArrowMouseExitedAction" onMousePressed="#backArrowMousePressedAction" onMouseReleased="#backArrowMouseReleasedAction" scaleX="0.08" scaleY="0.08">
+         <effect>
+            <DropShadow color="#8a8888" height="83.02" offsetX="10.0" offsetY="10.0" radius="47.6825" width="109.71" />
+         </effect>
+      </SVGPath>
     </children>
 </AnchorPane>
