@@ -13,10 +13,6 @@ import java.util.logging.Logger;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 
-/**
- *
- * @author Soe min hein
- */
 public class ConnectDB {
 
     private static final String url = "jdbc:mysql://localhost/Nutri_Fit_Member";
