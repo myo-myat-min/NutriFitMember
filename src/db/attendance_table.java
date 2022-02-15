@@ -10,10 +10,6 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.time.LocalDate;
 
-/**
- *
- * @author Soe min hein
- */
 public class attendance_table {
     
      
