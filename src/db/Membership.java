@@ -5,10 +5,6 @@
  */
 package db;
 
-/**
- *
- * @author Soe min hein
- */
 public class Membership {
     private String id;
     private String name;
