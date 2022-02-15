@@ -18,10 +18,6 @@ import java.util.logging.Logger;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 
-/**
- *
- * @author Soe min hein
- */
 public class Membertable {
 
     public static void CreateTable() {
