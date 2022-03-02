@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package db;
 
 import java.time.LocalDate;
 
-/**
- *
- * @author Soe min hein
- */
 public class trainer {
 
     private String id;
@@ -18,9 +9,6 @@ public class trainer {
     private String password;
     private LocalDate dob;
     private String gender;
-    /**
-     * *******
-     */
     private String email;
     private String nrc;
     private String ph;//int
@@ -79,7 +67,6 @@ public class trainer {
         this.address = address;
     }
        
-
     public trainer() {
     }
 
@@ -180,11 +167,5 @@ public class trainer {
     public String toString() {
         return "trainer{" + "id=" + id + ", name=" + name + ", password=" + password + ", dob=" + dob + ", gender=" + gender + ", email=" + email + ", nrc=" + nrc + ", ph=" + ph + ", address=" + address + ", status=" + status + ", fees=" + fees + '}';
     }
-
-//    public void setHeight(double nv) {
-//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-//    }
-
-    
-    
+ 
 }
