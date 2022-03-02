@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package db;
 
 import java.time.LocalDate;
 
-/**
- *
- * @author Soe min hein
- */
 public class schedule extends trainer{
     
     private String sche_id;
@@ -42,9 +33,6 @@ public class schedule extends trainer{
         return sche_id;
     }
 
-    
-    
-  
     public void setSche_id(String id) {
         this.sche_id = id;
     }
@@ -73,15 +61,9 @@ public class schedule extends trainer{
         this.trainer_id = trainer_id;
     }
 
-
-    
-    
-    
-
     @Override
     public String toString() {
         return "schedule{" + "id=" + sche_id + ", schedule_date=" + schedule_date + ", content=" + content + ", trainer_id=" + trainer_id + '}';
     }
-
-    
+ 
 }
