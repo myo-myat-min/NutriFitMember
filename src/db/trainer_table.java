@@ -1,11 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package db;
 
-//import GUIScenes.TrainerSignUpController;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.Date;
@@ -123,7 +117,6 @@ public class trainer_table {
 //        } catch (Exception e) {
 //            e.printStackTrace();
         }
-
     }
 
     public static void updatetrainer_ByTrainer(String trainer_id, String trainerName, String pass, LocalDate dob, String gender, String email, String nrc, String phone, String address) throws SQLException {
@@ -146,8 +139,6 @@ public class trainer_table {
             ps.execute();
             ps.executeUpdate();
 
-//        } catch (Exception e) {
-//            e.printStackTrace();
         }
 
     }
