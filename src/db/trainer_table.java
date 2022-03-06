@@ -74,17 +74,7 @@ public class trainer_table {
             ps.setString(9, t.getAddress());
             ps.setString(10, t.isStatus());
             ps.setInt(11, t.getFees());
-//            GUIScenes.TrainerSignUpController trainerSignUp = new GUIScenes.TrainerSignUpController();
             ps.execute();
-//            try {
-//                ps.execute();
-//                Alert alert = new Alert(Alert.AlertType.INFORMATION, "Trainer data are recorded", ButtonType.OK);
-//                alert.showAndWait();
-//            } catch (SQLException e) {
-//                new Alert(AlertType.ERROR, "Duplicated NRC is not allowed", ButtonType.OK).showAndWait();
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
         }
     }
 
@@ -108,14 +98,7 @@ public class trainer_table {
             ps.setInt(10, t.getFees());
             ps.setString(11, t.getId());
             ps.execute();
-//            try {
             ps.executeUpdate();
-//            } catch (SQLException e) {
-//                new Alert(Alert.AlertType.ERROR, "Duplicated NRC is not allowed", ButtonType.OK).showAndWait();
-//            }
-//
-//        } catch (Exception e) {
-//            e.printStackTrace();
         }
     }
 
