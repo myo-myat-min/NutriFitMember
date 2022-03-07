@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package db;
 
 import java.sql.Connection;
@@ -12,7 +7,6 @@ import java.time.LocalDate;
 
 public class attendance_table {
     
-     
      public static void create_table(){
          String sql="Create table attendance("
                  + "id int(100) primary key auto_increment ,"
@@ -40,17 +34,7 @@ public class attendance_table {
              e.printStackTrace();
          }
          
-         
      }
     
-
-     
-     
-       public static void main(String[] args) {
-           
-        //create_table();
-          // insert_attendance(new attendance(1, LocalDate.now()));
-       
-       }
 }
 
