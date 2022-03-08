@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package MemberGUIScenes;
 
 import com.jfoenix.controls.JFXButton;
@@ -36,12 +31,7 @@ import javafx.scene.shape.SVGPath;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.util.Duration;
-//import javafx.stage.Stage;
 
-/**
- *
- * @author User
- */
 public class FXMLBMIController implements Initializable {
     
     private FadeTransition fadeAnimationHeight = new FadeTransition();
@@ -413,55 +403,6 @@ public class FXMLBMIController implements Initializable {
         tInvalidAge.start();
     }
     
-//    @FXML
-//    private void handleButtonAction(ActionEvent event) throws IOException {
-//        
-//        System.out.println("You clicked me!");
-//        /*Parent scene2parent = FXMLLoader.load(getClass().getResource("FXML2.fxml"));
-//        Scene scene2scene = new Scene(scene2parent);
-//        Stage app_stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//        app_stage.setScene(scene2scene);
-//        app_stage.show();*/
-//        double idealweight =0;
-//        double BMI =0;
-//        double fat =0;
-//        
-//        String input = txtage.getText();
-//        double age = Double.parseDouble(input);
-//        
-//        String input1 = txtheight.getText();
-//        double height = Double.parseDouble(input);
-//        
-//        String input2 = txtweight.getText();
-//        double weight = Double.parseDouble(input1);
-//        
-//        if(male.isSelected()){
-//            idealweight = 22*(height*0.01)*(height*0.01);
-//            idealweightresult.setText(String.valueOf(idealweight));
-//            idealweightresult.setText(String.format("%.1f", idealweight));
-//            BMI = weight/(height*0.01*height*0.01);
-//            bmiresult.setText(String.valueOf(BMI));
-//            bmiresult.setText(String.format("%.1f", BMI));
-//            fat = -44.988+(0.503*age)+(10.689*0)+(3.172*BMI)-(0.026*BMI*BMI)
-//                            +(0.181*BMI*0)-(0.02*BMI*age)-(0.005*BMI*BMI*0)+(0.00021*BMI*BMI*age);
-//            fatresult.setText(String.valueOf(fat));
-//            fatresult.setText(String.format("%.1f", fat));
-//    }
-//    else{
-//        idealweight = 22*(height*0.01-0.1)*(height*0.01-0.1);
-//        idealweightresult.setText(String.valueOf(idealweight));
-//        idealweightresult.setText(String.format("%.1f", idealweight));
-//        BMI = weight/(height*0.01*height*0.01);
-//        bmiresult.setText(String.valueOf(BMI));
-//        bmiresult.setText(String.format("%.1f", BMI));
-//        fat = -44.988+(0.503*age)+(10.689*1)+(3.172*BMI)-(0.026*BMI*BMI)
-//                            +(0.181*BMI*1)-(0.02*BMI*age)-(0.005*BMI*BMI*1)+(0.00021*BMI*BMI*age);
-//            fatresult.setText(String.valueOf(fat));
-//            fatresult.setText(String.format("%.1f", fat));
-//            
-//    }
-//        }
-    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
@@ -483,9 +424,6 @@ public class FXMLBMIController implements Initializable {
                 txtweight.setText("" + (int) sliderweight.getValue());
             }
         });
-//        genderToggleGroup = new ToggleGroup();
-//        this.male.setToggleGroup(genderToggleGroup);
-//        this.female.setToggleGroup(genderToggleGroup);
     }   
     
     @FXML
