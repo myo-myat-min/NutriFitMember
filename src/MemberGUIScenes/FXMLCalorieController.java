@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package MemberGUIScenes;
 
 import com.jfoenix.controls.JFXButton;
@@ -281,7 +276,6 @@ public class FXMLCalorieController implements Initializable {
     }
 
     public void actionComboBox() {
-//        combo.setPromptText("Click To Select The Exercise. . .");
         combo.getItems().addAll(
                 "Sedentary:Little or no exercise",
                 "Light:Exercises 1-3 times/week",
@@ -289,40 +283,6 @@ public class FXMLCalorieController implements Initializable {
                 "Very Active:Exercises 6-7 times/week",
                 "Extra Active:Exercise daily");
     }
-
-//    public void actionSliderAge() {
-//
-//        sliderAge.valueProperty().addListener((a, b, c) -> {
-//            double ansAge = Math.round(Double.valueOf(String.valueOf(c)));
-//            String forAge = String.valueOf((int) ansAge);
-//            txtAge.setText(forAge);
-//            valueAge = Double.valueOf(forAge);
-//            System.out.println("age: " + valueAge);
-//        });
-//
-//    }
-
-//    public void actionSliderWeight() {
-//        sliderWeight.valueProperty().addListener((a, b, c) -> {
-//            double ansWeight = Math.round(Double.valueOf(String.valueOf(c)));
-//            String forWeight = String.valueOf((int) ansWeight);
-//            txtWeight.setText(forWeight);
-//            valueWeight = Double.valueOf(forWeight);
-//            System.out.println("weight: " + valueWeight);
-//        });
-//
-//    }
-
-//    public void actionSliderHeight() {
-//        sliderHeight.valueProperty().addListener((a, b, c) -> {
-//            double ansHeight = Math.round(Double.valueOf(String.valueOf(c)));
-//            String forHeight = String.valueOf((int) ansHeight);
-//            txtHeight.setText(forHeight);
-//            valueHeight = Double.valueOf(forHeight);
-//            System.out.println("height: " + valueHeight);
-//        });
-//
-//    }
 
     @FXML
     public void actionTextfieldAge(){
@@ -339,7 +299,6 @@ public class FXMLCalorieController implements Initializable {
     public void actionTextfieldHeight() {
 
         if (cm.isSelected()) {
-//            txtHeightForInch.setDisable(true);
             int num = Integer.valueOf(txtHeight.getText());
             valueHeight = num;
             sliderHeight.setValue(num);
@@ -347,7 +306,6 @@ public class FXMLCalorieController implements Initializable {
         }
 
         if (ft.isSelected()) {
-//            txtHeightForInch.setDisable(false);
             valueFt = Integer.valueOf(txtHeight.getText());
             valueFt = valueFt * 30.48;
             System.out.println("valueFt: " + valueFt);
@@ -699,97 +657,6 @@ public class FXMLCalorieController implements Initializable {
         }
         tInvalidInch.start();
     }
-
-//    @FXML
-//    public void actionCalculate() {
-//
-//        if (radioMale.isSelected()) {
-//
-//            man = (int) (Math.round((((10 * valueWeight) + (6.25 * valueHeight)) - (5 * valueAge) + 5)));
-//
-//            if (null != combo.getValue()) {
-//                switch (combo.getValue()) {
-//                    case "Sedentary:Little or no exercise":
-//                        man = (int) (man * 1.2);
-//                        break;
-//                    case "Light:Exercises 1-3 times/week":
-//                        man = (int) (man * 1.375);
-//                        break;
-//                    case "Active:Exercises 3-4 times/week":
-//                        man = (int) (man * 1.55);
-//                        break;
-//                    case "Very Active:Exercises 6-7 times/week":
-//                        man = (int) (man * 1.725);
-//                        break;
-//                    case "Extra Active:Exercise daily":
-//                        man = (int) (man * 1.9);
-//                        break;
-//                    default:
-//                        break;
-//                }
-//
-//                System.out.println("man:" + man);
-//
-//                calorie.setText(String.valueOf(man));
-//                System.out.println("calorie" + man);
-//                lblCalorieOne.setText(String.valueOf(man - 250));
-//                System.out.println("one" + (man - 250));
-//                lblCalorieTwo.setText(String.valueOf(man - 500));
-//                System.out.println("two" + (man - 500));
-//                lblCalorieThree.setText(String.valueOf(man - 1000));
-//                System.out.println("three" + (man - 1000));
-//                lblCalorieFour.setText(String.valueOf(man + 250));
-//                System.out.println("four" + (man + 250));
-//                lblCalorieFive.setText(String.valueOf(man + 500));
-//                System.out.println("five" + (man + 500));
-//                lblCalorieSix.setText(String.valueOf(man + 1000));
-//                System.out.println("six" + (man + 1000));
-//            }
-//        }
-//        if (radioFemale.isSelected()) {
-//
-//            woman = (int) (Math.round((((10 * valueWeight) + (6.25 * valueHeight)) - (5 * valueAge) - 161)));
-//
-//            if (null != combo.getValue()) {
-//                switch (combo.getValue()) {
-//                    case "Sedentary:Little or no exercise":
-//                        woman = (int) (woman * 1.2);
-//                        break;
-//                    case "Light:Exercises 1-3 times/week":
-//                        woman = (int) (woman * 1.375);
-//                        break;
-//                    case "Active:Exercises 3-4 times/week":
-//                        woman = (int) (woman * 1.55);
-//                        break;
-//                    case "Very Active:Exercises 6-7 times/week":
-//                        woman = (int) (woman * 1.725);
-//                        break;
-//                    case "Extra Active:Exercise daily":
-//                        woman = (int) (woman * 1.9);
-//                        break;
-//                    default:
-//                        break;
-//                }
-//
-//                System.out.println("woman:" + woman);
-//
-//                calorie.setText(String.valueOf(woman));
-//                System.out.println("calorie" + woman);
-//                lblCalorieOne.setText(String.valueOf(woman - 250));
-//                System.out.println("one" + (woman - 250));
-//                lblCalorieTwo.setText(String.valueOf(woman - 500));
-//                System.out.println("two" + (woman - 500));
-//                lblCalorieThree.setText(String.valueOf(woman - 1000));
-//                System.out.println("three" + (woman - 1000));
-//                lblCalorieFour.setText(String.valueOf(woman + 250));
-//                System.out.println("four" + (woman + 250));
-//                lblCalorieFive.setText(String.valueOf(woman + 500));
-//                System.out.println("five" + (woman + 500));
-//                lblCalorieSix.setText(String.valueOf(woman + 1000));
-//                System.out.println("six" + (woman + 1000));
-//            }
-//        }
-//    }
     
     @FXML
     void weightMousePressedAction(MouseEvent event) {
@@ -826,5 +693,4 @@ public class FXMLCalorieController implements Initializable {
             }
         });
     }
-    
 }
