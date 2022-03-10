@@ -206,15 +206,6 @@ public class FXMLIdealWeightController implements Initializable {
         
     }
 
-//    public void actionRadioMale() {
-//        sceneHbox.setStyle("-fx-background-color:#85c1e9;");
-//
-//    }
-//
-//    public void actionRadioFemale() {
-//        sceneHbox.setStyle("-fx-background-color:#ffb6c1;");
-//    }
-
     @FXML
     void actionSliderAge(MouseEvent event) {
 //        sliAge.valueProperty().addListener((a, b, c) -> {
