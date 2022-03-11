@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package MemberGUIScenes;
 
 import com.jfoenix.controls.JFXDrawer;
@@ -72,20 +67,8 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.shape.SVGPath;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-//import static newpackage.b.FILE_SIZE;
-//import static newpackage.b.FILE_TO_RECEIVED;
 
-/**
- *
- * @author ACER
- */
 public class LooseWeightWorkoutController implements Initializable {
-
-//    @FXML
-//    private JFXDrawer adminDrawer;
-//
-//    @FXML
-//    private JFXHamburger adminMenu;
 
     @FXML
     private Rectangle titleTemplate;
@@ -144,8 +127,6 @@ public class LooseWeightWorkoutController implements Initializable {
             borderPane.setPrefSize(350, 0);
             borderPane.setStyle("-fx-background-color : #8a8a8a; -fx-background-radius : 20px;");
 
-//                                gridPane.setHgap(30);
-//                                gridPane.setVgap(30);
             String css = "-fx-font-size : 15px; -fx-font-weight: bold";
             Text workoutName = new Text(t.getWorkout_name());
             workoutName.setStyle(css);
@@ -202,8 +183,6 @@ public class LooseWeightWorkoutController implements Initializable {
             ref.setTopOffset(9);
             ref.setTopOpacity(0.4);
             borderPane.setEffect(ref);
-//            BorderPane.setAlignment(hBoxWho, Pos.BOTTOM_CENTER);
-//            BorderPane.setAlignment(hBoxWorkout, Pos.TOP_CENTER);
 
             flowPane.getChildren().addAll(borderPane);
 
@@ -216,28 +195,6 @@ public class LooseWeightWorkoutController implements Initializable {
         scrollPane.setVbarPolicy(ScrollPane.ScrollBarPolicy.AS_NEEDED);
         flowPane.setHgap(20);
         flowPane.setVgap(10);
-
-//        MemberMyAccountController memberMyAccControl = new MemberMyAccountController();
-//        HamburgerBasicCloseTransition burgerTask = new HamburgerBasicCloseTransition(adminMenu);
-//        burgerTask.setRate(-1);
-//        adminMenu.setOnMousePressed((event) -> {
-//            try {
-//                adminDrawer.setSidePane(memberMyAccControl.adminMenuScene());
-//            } catch (IOException ex) {
-//                Logger.getLogger(AllWorkoutController.class.getName()).log(Level.SEVERE, null, ex);
-//            }
-//
-//        });
-//        adminMenu.setOnMouseReleased((event) -> {
-//            burgerTask.setRate(burgerTask.getRate() * -1);
-//            burgerTask.play();
-//
-//            if (adminDrawer.isShown()) {
-//                adminDrawer.close();
-//            } else {
-//                adminDrawer.open();
-//            }
-//        });
 
     }
 
