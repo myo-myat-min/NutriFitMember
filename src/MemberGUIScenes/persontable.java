@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package MemberGUIScenes;
 
-/**
- *
- * @author User
- */
 public class persontable {
 
     String tblLife, tblPro;
@@ -34,7 +25,4 @@ public class persontable {
         this.tblPro = tblPro;
     }
     
-    
 }
-
-
