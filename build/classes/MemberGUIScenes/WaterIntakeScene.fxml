@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="732.0" prefWidth="1366.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MemberGUIScenes.WaterIntakeController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1220.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MemberGUIScenes.WaterIntakeController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="362.0" layoutY="-29.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="277.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="273.0" layoutX="-20.0" layoutY="-46.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="411.0" />
@@ -28,27 +28,27 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="205.0" layoutX="346.0" layoutY="642.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="226.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="291.0" layoutX="534.0" layoutY="551.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="328.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="260.0" layoutX="1078.0" layoutY="285.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="397.0" />
-      <Rectangle fx:id="recthree" arcHeight="30.0" arcWidth="30.0" fill="#ffbb00" height="136.0" layoutX="545.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="277.0">
-         <effect>
-            <DropShadow color="#8a8888" offsetX="0.5" offsetY="0.5" />
-         </effect>
-      </Rectangle>
-      <JFXButton fx:id="btncalculate" buttonType="RAISED" layoutX="719.0" layoutY="386.0" onAction="#onaction" prefHeight="34.0" prefWidth="102.0" ripplerFill="#35ae05" style="-fx-background-color: #ffbb00;" text="Calculate" textFill="WHITE">
+      <JFXButton fx:id="btncalculate" buttonType="RAISED" layoutX="646.0" layoutY="386.0" onAction="#onaction" prefHeight="34.0" prefWidth="102.0" ripplerFill="#35ae05" style="-fx-background-color: #ffbb00;" text="Calculate" textFill="WHITE">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </JFXButton>
-      <Rectangle fx:id="titleTemplate" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="433.0" layoutY="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0">
+      <Rectangle fx:id="recthree" arcHeight="30.0" arcWidth="30.0" fill="#ffbb00" height="136.0" layoutX="472.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="277.0">
+         <effect>
+            <DropShadow color="#8a8888" offsetX="0.5" offsetY="0.5" />
+         </effect>
+      </Rectangle>
+      <Rectangle fx:id="titleTemplate" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="366.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0">
          <effect>
             <DropShadow blurType="GAUSSIAN" color="#ffbb00" offsetX="3.0" offsetY="3.0" />
          </effect>
       </Rectangle>
-      <Text fx:id="titleRecordTrainerAtt" layoutX="502.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water Intake Calculator" textAlignment="CENTER" wrappingWidth="362.3603515625">
+      <Text fx:id="titleRecordTrainerAtt" layoutX="435.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water Intake Calculator" textAlignment="CENTER" wrappingWidth="362.3603515625">
          <font>
             <Font size="30.0" />
          </font>
       </Text>
-      <JFXRadioButton fx:id="radiobtnmale" layoutX="645.0" layoutY="190.0" prefHeight="27.0" prefWidth="66.0" selected="true" text="Male" textAlignment="CENTER">
+      <JFXRadioButton fx:id="radiobtnmale" layoutX="572.0" layoutY="190.0" prefHeight="27.0" prefWidth="66.0" selected="true" text="Male" textAlignment="CENTER">
          <font>
             <Font size="15.0" />
          </font>
@@ -56,18 +56,18 @@
             <ToggleGroup fx:id="toggleradiobutton" />
          </toggleGroup>
       </JFXRadioButton>
-      <JFXRadioButton fx:id="radiobtnfemale" layoutX="730.0" layoutY="190.0" prefHeight="27.0" prefWidth="92.0" text="Female" textAlignment="CENTER" toggleGroup="$toggleradiobutton">
+      <JFXRadioButton fx:id="radiobtnfemale" layoutX="657.0" layoutY="190.0" prefHeight="27.0" prefWidth="92.0" text="Female" textAlignment="CENTER" toggleGroup="$toggleradiobutton">
          <font>
             <Font size="15.0" />
          </font>
       </JFXRadioButton>
-      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="50.0" layoutX="569.0" layoutY="248.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="65.0">
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="50.0" layoutX="496.0" layoutY="248.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="65.0">
          <effect>
             <DropShadow color="#8a8888" />
          </effect>
       </Rectangle>
-      <JFXComboBox fx:id="comboboxage" layoutX="569.0" layoutY="305.0" prefHeight="33.0" prefWidth="225.0" />
-      <Label fx:id="lblage" layoutX="586.0" layoutY="258.0" prefHeight="27.0" prefWidth="50.0" text="Age">
+      <JFXComboBox fx:id="comboboxage" layoutX="496.0" layoutY="305.0" prefHeight="33.0" prefWidth="225.0" />
+      <Label fx:id="lblage" layoutX="513.0" layoutY="258.0" prefHeight="27.0" prefWidth="50.0" text="Age">
          <font>
             <Font size="18.0" />
          </font>

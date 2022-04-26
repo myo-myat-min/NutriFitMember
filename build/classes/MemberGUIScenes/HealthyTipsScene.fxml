@@ -18,7 +18,7 @@
          <children>
             <AnchorPane id="AnchorPane" fx:id="scrollbar" prefHeight="732.0" prefWidth="1360.0" style="-fx-background-color: white;">
                <children>
-                  <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+                  <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16" minWidth="69" />
                   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="385.0" layoutY="397.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
                      <effect>
                         <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
@@ -29,7 +29,7 @@
                         <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
                      </effect>
                   </Rectangle>
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="385.0" layoutY="105.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="385.0" layoutY="100.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
                      <effect>
                         <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
                      </effect>
@@ -39,7 +39,7 @@
                         <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
                      </effect>
                   </Rectangle>
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="714.0" layoutY="102.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fefeff" height="236.0" layoutX="714.0" layoutY="97.0" stroke="#ffbb00" strokeType="INSIDE" width="267.0">
                      <effect>
                         <DropShadow color="#ffbb00" offsetX="1.0" offsetY="2.0" />
                      </effect>
@@ -94,22 +94,22 @@
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Label>
-                  <Label layoutX="745.0" layoutY="102.0" prefHeight="37.0" prefWidth="205.0" text="Drinking a glass or two of water" textFill="#33cc00">
+                  <Label layoutX="745.0" layoutY="97.0" prefHeight="37.0" prefWidth="205.0" text="Drinking a glass or two of water" textFill="#33cc00">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Label layoutX="755.0" layoutY="133.0" prefHeight="28.0" prefWidth="185.0" text="right when you wake up, is a " textFill="#33cc00">
+                  <Label layoutX="755.0" layoutY="128.0" prefHeight="28.0" prefWidth="185.0" text="right when you wake up, is a " textFill="#33cc00">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Label layoutX="745.0" layoutY="153.0" prefHeight="37.0" prefWidth="205.0" text="good way to quickely rehydrate" textFill="#33cc00">
+                  <Label layoutX="745.0" layoutY="148.0" prefHeight="37.0" prefWidth="205.0" text="good way to quickely rehydrate" textFill="#33cc00">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Label layoutX="813.0" layoutY="185.0" prefHeight="18.0" prefWidth="69.0" text="your body" textFill="#33cc00">
+                  <Label layoutX="813.0" layoutY="180.0" prefHeight="18.0" prefWidth="69.0" text="your body" textFill="#33cc00">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -144,17 +144,17 @@
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Label layoutX="436.0" layoutY="241.0" prefHeight="37.0" prefWidth="171.0" text="Prepare food in a safe and " textFill="#ff33cc">
+                  <Label layoutX="436.0" layoutY="236.0" prefHeight="37.0" prefWidth="171.0" text="Prepare food in a safe and " textFill="#ff33cc">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Label layoutX="474.0" layoutY="275.0" prefHeight="18.0" prefWidth="90.0" text="hygienic way." textFill="#ff33cc">
+                  <Label layoutX="474.0" layoutY="270.0" prefHeight="18.0" prefWidth="90.0" text="hygienic way." textFill="#ff33cc">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Label layoutX="412.0" layoutY="290.0" prefHeight="43.0" prefWidth="213.0" text="(Steam, bake, boil or microwave)" textFill="#ff33cc">
+                  <Label layoutX="412.0" layoutY="285.0" prefHeight="43.0" prefWidth="213.0" text="(Steam, bake, boil or microwave)" textFill="#ff33cc">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -409,12 +409,12 @@
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Label>
-                  <ImageView fx:id="image1" fitHeight="131.0" fitWidth="152.0" layoutX="439.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="image1" fitHeight="131.0" fitWidth="152.0" layoutX="439.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../Resources/5.jpg" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="image2" fitHeight="114.0" fitWidth="139.0" layoutX="776.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="image2" fitHeight="114.0" fitWidth="139.0" layoutX="776.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../Resources/2.jpg" />
                      </image>
