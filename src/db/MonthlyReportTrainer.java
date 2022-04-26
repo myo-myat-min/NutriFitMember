@@ -5,10 +5,6 @@
  */
 package db;
 
-/**
- *
- * @author ACER
- */
 public class MonthlyReportTrainer {
 
     String trainerName, lateTime, leaveDay;

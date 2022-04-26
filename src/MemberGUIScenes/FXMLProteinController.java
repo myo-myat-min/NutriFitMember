@@ -1,9 +1,3 @@
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package MemberGUIScenes;
 
 import com.jfoenix.controls.JFXButton;
@@ -44,10 +38,6 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
-/**
- *
- * @author U Kyi
- */
 public class FXMLProteinController implements Initializable {
 
     private FadeTransition fadeAnimationWeight = new FadeTransition();
@@ -348,14 +338,6 @@ public class FXMLProteinController implements Initializable {
         tInvalidAge.start();
     }
 
-//    @FXML
-//    void handleButtonAction(MouseEvent event) {
-//
-//    }
-//    @FXML
-//    void calculate1(ActionEvent event) {
-//        
-//    }
     @FXML
     void combo(ActionEvent event) {
         String s = combo.getSelectionModel().getSelectedItem();

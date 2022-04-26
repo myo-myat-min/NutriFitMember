@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package MemberGUIScenes;
 
 import com.jfoenix.controls.JFXComboBox;
@@ -46,10 +41,6 @@ import javafx.scene.shape.SVGPath;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-/**
- *
- * @author ACER
- */
 public class ViewSingleWorkoutController implements Initializable {
 
     @FXML
@@ -133,7 +124,7 @@ public class ViewSingleWorkoutController implements Initializable {
         this.txtFieldWorkoutName.setText(t.getWorkout_name());
         this.txtFieldEffectedMuscle.setText(t.getEffectedMuscle());
         this.txtFieldBurntCalorie.setText(String.valueOf(t.getBurnt_calorie()));
-//w.getWorkout_video()).toURI().toString()
+
         Media media = new Media(f.toURI().toString());
         media.setOnError(() -> {
             new Alert(Alert.AlertType.ERROR).show();
@@ -189,24 +180,6 @@ public class ViewSingleWorkoutController implements Initializable {
     void backArrowMousePressedAction(MouseEvent event) {
         backArrowShape.setFill(Color.web("#35ae50"));
     }
-
-//    @FXML
-//    void backArrowMouseReleasedAction(MouseEvent event) {
-//        try {
-//            mediaPlayer.dispose();
-//
-//            System.out.println(Files.deleteIfExists(f.toPath()));
-//
-//            Parent trainerSignUpScene = FXMLLoader.load(getClass().getResource("ViewWorkoutScene.fxml"));
-//            Scene scene = new Scene(trainerSignUpScene);
-//            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//            window.setResizable(false);
-//            window.setScene(scene);
-//            window.show();
-//        } catch (IOException ex) {
-//            Logger.getLogger(ViewSingleWorkoutController.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-//    }
     
     @FXML
     void backArrowMouseReleasedAction(MouseEvent event) {
@@ -260,5 +233,4 @@ public class ViewSingleWorkoutController implements Initializable {
             }
         }
     }
-
 }

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package MemberGUIScenes;
 
 import com.jfoenix.controls.JFXButton;
@@ -35,10 +30,6 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-/**
- *
- * @author ACER
- */
 public class ViewScheduleController implements Initializable {
 
     @FXML
@@ -88,24 +79,6 @@ public class ViewScheduleController implements Initializable {
 
     @FXML
     private Text emptyNoti;
-
-//    @FXML
-//    private JFXButton clearButton;
-//
-//    @FXML
-//    void clearPressedAction(MouseEvent event) {
-//        try {
-//            Parent memberSignUpScene = FXMLLoader.load(getClass().getResource("ViewScheduleScene.fxml"));
-//            Scene scene = new Scene(memberSignUpScene);
-//            scene.getStylesheets().add("CSS/TableDesign.css");
-//            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//            window.setResizable(false);
-//            window.setScene(scene);
-//            window.show();
-//        } catch (IOException ex) {
-//            Logger.getLogger(ViewScheduleController.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-//    }
 
     @FXML
     void updatePressedAction(MouseEvent event) {

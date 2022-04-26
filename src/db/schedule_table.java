@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package db;
 
 import java.sql.Connection;
@@ -12,10 +7,6 @@ import java.sql.ResultSet;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-/**
- *
- * @author Soe min hein
- */
 public class schedule_table {
 
     public static void create_table() {
@@ -177,11 +168,6 @@ public class schedule_table {
             e.printStackTrace();
         }
 
-    }
-
-    public static void main(String[] args) {
-        //   create_table();
-        //  System.out.println(showall());
     }
 
 }

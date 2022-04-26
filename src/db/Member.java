@@ -7,10 +7,6 @@ package db;
 
 import java.time.LocalDate;
 
-/**
- *
- * @author Soe min hein
- */
 public class Member {
 
     private String id;

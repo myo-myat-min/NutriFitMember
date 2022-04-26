@@ -252,9 +252,6 @@ public class MemberMyAccountController implements Initializable {
 
     @FXML
     private Text invalidDOB;
-
-//    @FXML
-//    private JFXComboBox<String> cboPackage;
     
     @FXML
     private JFXCheckBox editableMode;
@@ -280,8 +277,6 @@ public class MemberMyAccountController implements Initializable {
         this.weight.setText(String.valueOf(weight));
         this.medicalData.setText(medicalData);
     }
-
-//    private ArrayList<db.Membership> m = db.membership_table.showall();
 
     @FXML
     void signUpPressedAction(MouseEvent event) {
@@ -336,45 +331,6 @@ public class MemberMyAccountController implements Initializable {
                 } catch (SQLException e) {
                     new Alert(Alert.AlertType.ERROR, "Duplicate NRC or email is not allowed", ButtonType.OK).showAndWait();
                 }
-
-//                Member m = new Member(memberName.getText(), pass.getText(), dob.getValue(), maleOrFemale, (int) sliWeight.getValue(),
-//                        (int) sliHeight.getValue(), email.getText(), nrc.getText(), phone.getText(), address.getText(),
-//                        medicalData.getText());
-//                String ms = cboPackage.getSelectionModel().getSelectedItem();
-//
-//                this.m.forEach((t) -> {
-//                    if (t.getName().equals(ms)) {
-//                        String[] s = t.getName().split("-");
-//                        System.out.println(s[0]);
-//                        System.out.println(t.getId());
-//                        System.out.println(m);
-//                        LocalDate enddate = LocalDate.now().plusMonths(Integer.parseInt(s[0]));
-//                        try {
-//                            Membertable.add_member_invoice(m, 1, enddate, t.getId());
-//                            Alert alertRecorded = new Alert(Alert.AlertType.INFORMATION, "Member data are recorded", ButtonType.OK);
-//                            alertRecorded.showAndWait();
-//                            if (alertRecorded.getResult() == ButtonType.OK) {
-//                                try {
-//                                    Parent trainerSignUpScene = FXMLLoader.load(getClass().getResource("InvoiceScene.fxml"));
-//                                    Scene scene = new Scene(trainerSignUpScene);
-//                                    Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-//                                    window.setResizable(false);
-//                                    window.setScene(scene);
-//                                    window.show();
-//                                } catch (IOException ex) {
-//                                    Logger.getLogger(MemberMyAccountController.class.getName()).log(Level.SEVERE, null, ex);
-//                                }
-//                            }
-//                        } catch (SQLException ex) {
-////                            Alert alertNrc = new Alert(Alert.AlertType.ERROR, "Duplicated NRC is not allowed", ButtonType.OK);
-////                            alertNrc.showAndWait();
-//                               ex.printStackTrace();
-////                            if(alertNrc.getResult() == ButtonType.OK){
-////                                event.consume();
-////                            }
-//                        }
-//                    }
-//                });
 
             } else {
                 invalidAnimation();
@@ -941,7 +897,6 @@ public class MemberMyAccountController implements Initializable {
             sliHeight.setDisable(true);
             sliWeight.setDisable(true);
             medicalData.setEditable(false);
-//            cboPackage.setEditable(false);
         }
 
         editableMode.selectedProperty().addListener((ob, ov, nv) -> {
@@ -961,7 +916,6 @@ public class MemberMyAccountController implements Initializable {
                 sliHeight.setDisable(false);
                 sliWeight.setDisable(false);
                 medicalData.setEditable(true);
-//                cboPackage.setEditable(true);
             } else {
                 memberName.setEditable(false);
                 email.setEditable(false);
@@ -978,15 +932,8 @@ public class MemberMyAccountController implements Initializable {
                 sliHeight.setDisable(true);
                 sliWeight.setDisable(true);
                 medicalData.setEditable(false);
-//                cboPackage.setEditable(false);
             }
         });
-//        System.out.println(m);
-//        m.forEach((t) -> {
-//            System.out.println(t.getName());
-//            cboPackage.getItems().add(t.getName());
-//        });
-//        cboPackage.getSelectionModel().selectFirst();
 
         HamburgerBasicCloseTransition burgerTask = new HamburgerBasicCloseTransition(adminMenu);
         burgerTask.setRate(-1);

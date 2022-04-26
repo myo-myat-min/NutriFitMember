@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package MemberGUIScenes;
 
 import com.jfoenix.controls.JFXButton;
@@ -37,10 +32,6 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
-/**
- *
- * @author U Kyi
- */
 public class FXMLBMRController implements Initializable {
     
     private FadeTransition fadeAnimationHeight = new FadeTransition();
@@ -207,29 +198,21 @@ public class FXMLBMRController implements Initializable {
                 if (radioMale.isSelected()) {
                     if (kg.isSelected()) {
                         bmr = 10 * weight + 6.25 * height - 5 * age + 5;
-//                lblMsg.setText("Calories to maintain weight");
                         lblBmr.setText("" + bmr);
-//                lblDay.setText("Calories/day");
                     }
                     if (lb.isSelected()) {
                         bmr = (10 * weight * 0.45 + 6.25 * height - 5 * age + 5) + 2;
-//                lblMsg.setText("Calories to maintain weight");
                         lblBmr.setText("" + bmr);
-//                lblDay.setText("Calories/day");
                     }
                 }
                 if (radioFemale.isSelected()) {
                     if (kg.isSelected()) {
                         bmr = 10 * weight + 6.25 * height - 5 * age - 161;
-//                lblMsg.setText("Calories to maintain weight");
                         lblBmr.setText("" + bmr);
-//                lblDay.setText("Calories/day");
                     }
                     if (lb.isSelected()) {
                         bmr = (10 * weight * 0.45 + 6.25 * height - 5 * age - 161) + 2;
-//                lblMsg.setText("Calories to maintain weight");
                         lblBmr.setText("" + bmr);
-//                lblDay.setText("Calories/day");
                     }
                 }
             } else {
@@ -387,48 +370,6 @@ public class FXMLBMRController implements Initializable {
         }
         tInvalidAge.start();
     }
-
-//    @FXML
-//    void calculateOnAction(ActionEvent event) {
-//        double bmr = 0;
-//        String inputAge = txtAge.getText();
-//        int age = Integer.parseInt(inputAge);
-//
-//        String inputWeight = txtWeight.getText();
-//        int weight = Integer.parseInt(inputWeight);
-//
-//        String inputHeight = txtHeight.getText();
-//        int height = Integer.parseInt(inputHeight);
-//
-//        if (radioMale.isSelected()) {
-//            if (kg.isSelected()) {
-//                bmr = 10 * weight + 6.25 * height - 5 * age + 5;
-////                lblMsg.setText("Calories to maintain weight");
-//                lblBmr.setText(""+bmr);
-////                lblDay.setText("Calories/day");
-//            }
-//            if (lb.isSelected()) {
-//                bmr = (10 * weight * 0.45 + 6.25 * height - 5 * age + 5) + 2;
-////                lblMsg.setText("Calories to maintain weight");
-//                lblBmr.setText(""+bmr);
-////                lblDay.setText("Calories/day");
-//            }
-//        }
-//        if (radioFemale.isSelected()) {
-//            if (kg.isSelected()) {
-//                bmr = 10 * weight + 6.25 * height - 5 * age - 161;
-////                lblMsg.setText("Calories to maintain weight");
-//                lblBmr.setText(""+bmr);
-////                lblDay.setText("Calories/day");
-//            }
-//            if (lb.isSelected()) {
-//                bmr = (10 * weight * 0.45 + 6.25 * height - 5 * age - 161) + 2;
-////                lblMsg.setText("Calories to maintain weight");
-//                lblBmr.setText(""+bmr);
-////                lblDay.setText("Calories/day");
-//            }
-//        }
-//    }
 
     public void initialize(URL url, ResourceBundle rb) {
         sliderAge.valueProperty().addListener(new ChangeListener<Number>() {

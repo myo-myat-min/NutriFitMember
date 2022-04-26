@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package db;
 
 import java.sql.Connection;
@@ -14,10 +9,6 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Soe min hein
- */
 public class membership_table {
 
     public static void create_membership_table() {
@@ -108,16 +99,6 @@ public class membership_table {
             e.printStackTrace();
         }
         return null;
-    }
-
-    public static void main(String[] args) {
-        /// create_membership_table();
-        //    delete_table();
-//        insert_membership(new Membership("1-month", 22222));
-//        insert_membership(new Membership("2-month", 33333));
-//        insert_membership(new Membership("3-month", 22222));
-//        insert_membership(new Membership("4-month", 33333));
-        //   System.out.println(showall());
     }
 
 }
