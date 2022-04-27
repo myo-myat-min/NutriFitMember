@@ -15,13 +15,4 @@ public class CreateDB {
 		return DriverManager.getConnection(url, username, password);
 	}
 
-	public static void create_db() {
-		String sql = "CREATE DATABASE Nutri_Fit";
-
-		try (Connection con = createConnection(); PreparedStatement ps = con.prepareStatement(sql);) {
-			ps.execute();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
 }

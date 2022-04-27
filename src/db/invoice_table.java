@@ -12,27 +12,6 @@ import java.util.logging.Logger;
 
 public class invoice_table {
 
-	public static void create_table() {
-
-		String sql = "create table invoice(" + "id varchar(50) primary key ," + "invoice_date date  not null ,"
-				+ "end_date date not null ," + "member_id  varchar(50) not null ,  "
-				+ " membership_id  varchar(50) not null," + "admin_id  varchar(50)  not null ,"
-				+ " FOREIGN KEY (`member_id`) REFERENCES `member`(`id`) ON UPDATE CASCADE ON DELETE CASCADE,"
-				+ " FOREIGN KEY (`membership_id`) REFERENCES `membership`(`membership_id`) ON UPDATE CASCADE ON DELETE CASCADE,"
-				+ "FOREIGN KEY (`admin_id`) REFERENCES `admin`(`id`) ON UPDATE CASCADE ON DELETE CASCADE);";
-
-		try (Connection con = ConnectDB.CreateConnection(); PreparedStatement ps = con.prepareStatement(sql)) {
-
-			ps.execute();
-			System.out.println("invoice table created");
-
-		} catch (Exception e) {
-
-			e.printStackTrace();
-		}
-
-	}
-
 	public static void delete_table() {
 		String sql = "Drop table invoice";
 		try (Connection con = ConnectDB.CreateConnection(); PreparedStatement ps = con.prepareStatement(sql)) {

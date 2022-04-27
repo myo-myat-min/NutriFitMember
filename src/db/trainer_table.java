@@ -13,31 +13,6 @@ import javafx.scene.control.ButtonType;
 
 public class trainer_table {
 
-    public static void create_table() {
-
-        String sql = "Create table trainer("
-                + " id  varchar(50) Primary key   ,"
-                + "name  Varchar(50) NOT NULL,"
-                + "password Varchar(50) NOT  NULL ,"
-                + "dob Date NOT NULL,"
-                + "gender Varchar(6) NOT NULL Unique,"
-                + "email Varchar(50) , "
-                + "nrc Varchar(50) NOT NULL Unique,"
-                + "phone_no Varchar(50),"
-                + "address Varchar(50),"
-                + "status Varchar(10) not null , "
-                + "fees int(100)   not null  );";
-
-        try (Connection con = ConnectDB.CreateConnection();
-                PreparedStatement ps = con.prepareStatement(sql)) {
-
-            ps.execute();
-            System.out.println("trainer table created");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
     public void insert_trainer(trainer t) throws SQLException {
 
         String id = "T-00001";

@@ -9,26 +9,6 @@ import java.util.ArrayList;
 
 public class monthly_progress_table {
 
-    public static void create_table() {
-        String sql = "Create table monthly_progress ("
-                + "id varchar(50) primary key ,"
-                + "progress_date Date not null ,"
-                + "member_id varchar(50) not null ,"
-                + "workout_id  int(50) not null ,"
-                + "FOREIGN KEY (`member_id`) REFERENCES `member`(`id`) ON UPDATE CASCADE ON DELETE CASCADE,"
-                + "FOREIGN KEY (`workout_id`) REFERENCES `workout`(`id`) ON UPDATE CASCADE ON DELETE CASCADE);";
-
-        try (Connection con = ConnectDB.CreateConnection();
-                PreparedStatement ps = con.prepareStatement(sql)) {
-
-            ps.execute();
-            System.out.println("monthl_progress_table  created");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-
     public static void insert_monthly_progress(monthly_progress mp, Member m, workout w) {
         String sql = "INSERT INTO `monthly_progress`( `progress_date`, `member_id`, `workout_id`)"
                 + " VALUES (?,?,?)";

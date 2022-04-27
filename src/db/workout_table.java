@@ -10,30 +10,6 @@ import java.util.ArrayList;
 
 public class workout_table {
 
-    public static void create_table() {
-
-        String sql = "Create table workout("
-                + "id int(50) primary key AUTO_INCREMENT,"
-                + "name varchar(50) not null ,"
-                + "video varchar(60) not null ,"
-                + "burnt_calorie float not null , "
-                + "workout_type varchar(15) , "
-                + "effected_muscle varchar(40) ,"
-                + "trainer_id  varchar(50) not null ,"
-                + "image longblob ,"
-                + "FOREIGN KEY (trainer_id) REFERENCES `trainer`(`id`) ON DELETE RESTRICT ON UPDATE RESTRICT )";
-        try (Connection con = ConnectDB.CreateConnection();
-                PreparedStatement ps = con.prepareStatement(sql)) {
-
-            ps.execute();
-            System.out.println("workout table created");
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-
     public static void insert_video(workout w) {
 
         String sql = "Select id from trainer where email=?";

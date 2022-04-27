@@ -13,26 +13,6 @@ import java.util.ArrayList;
 
 public class admin_table {
 
-    public static void create_table() {
-
-        String sql = "create table admin("
-                + "id  varchar(50) primary key ,"
-                + "name varchar(50) not null,"
-                + "password varchar(50) not null,"
-                + "email varchar(50) not null Unique, phone varchar(15), status varchar(10));";
-
-        try (Connection con = ConnectDB.CreateConnection();
-                PreparedStatement ps = con.prepareStatement(sql);) {
-
-            ps.execute();
-            System.out.println("table created");
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-
     public static void delete_table() {
 
         String sql = "drop table admin";
