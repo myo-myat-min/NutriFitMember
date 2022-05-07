@@ -13,6 +13,7 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.time.LocalDate;
+import java.util.Base64;
 import java.util.Properties;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
@@ -150,7 +151,13 @@ public class MemberSignInController implements Initializable {
                         ResultSet rs = ps.executeQuery();
 
                         while (rs.next()) {
-                            if (rs.getString("email").equals(txtFieldEmail.getText()) && rs.getString("password").equals(pass.getText())) {
+                        	
+                        	String encodedPass = rs.getString("password");
+							String decodedPass = new String(Base64.getDecoder().decode(encodedPass));
+							System.out.println(decodedPass + " Decrypted Password");
+							
+                            if (rs.getString("email").equals(txtFieldEmail.getText()) && decodedPass.equals(pass.getText())) {
+                            	
                                 if (invoice_table.lastEndDate(txtFieldEmail.getText()).isAfter(LocalDate.now()) || invoice_table.lastEndDate(txtFieldEmail.getText()).equals(LocalDate.now())) {
                                     FXMLLoader loader = new FXMLLoader();
                                     loader.setLocation(getClass().getResource("MemberMyAccountScene.fxml"));

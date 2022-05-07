@@ -1010,14 +1010,14 @@ public class MemberMyAccountController implements Initializable {
                     calculatorsButton.setTextFill(Color.WHITE);
                 });
                 break;
-            case "Healthy Tips":
-                healthyTipsButton.setStyle("-fx-background-color : #ffbb00");
-                healthyTipsButton.setTextFill(Color.WHITE);
-                healthyTipsButton.setOnMouseExited((event) -> {
-                    healthyTipsButton.setStyle("-fx-background-color : #ffbb00");
-                    healthyTipsButton.setTextFill(Color.WHITE);
-                });
-                break;
+//            case "Healthy Tips":
+//                healthyTipsButton.setStyle("-fx-background-color : #ffbb00");
+//                healthyTipsButton.setTextFill(Color.WHITE);
+//                healthyTipsButton.setOnMouseExited((event) -> {
+//                    healthyTipsButton.setStyle("-fx-background-color : #ffbb00");
+//                    healthyTipsButton.setTextFill(Color.WHITE);
+//                });
+//                break;
             default:
                 break;
         }
