@@ -11,29 +11,30 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    @Override
-    public void start(Stage stage) throws Exception {
-        Parent memberSignUpScene = FXMLLoader.load(getClass().getResource("MemberSignInScene.fxml"));
-        Scene scene = new Scene(memberSignUpScene);
-        stage.setOnCloseRequest((event) -> {
-            Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "Are you sure to exit?", ButtonType.YES, ButtonType.NO);
-            alert.showAndWait();
+	@Override
+	public void start(Stage stage) throws Exception {
+		Parent memberSignUpScene = FXMLLoader.load(getClass().getResource("MemberSignInScene.fxml"));
+		Scene scene = new Scene(memberSignUpScene);
+		stage.setOnCloseRequest((event) -> {
+			Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "Are you sure to exit?", ButtonType.YES,
+					ButtonType.NO);
+			alert.showAndWait();
 
-            if (alert.getResult() == ButtonType.YES) {
-                System.exit(0);
-            } else {
-                event.consume();
-            }
-        });
-        stage.setTitle("NutriFit");
-        stage.setResizable(false);
-        stage.centerOnScreen();
-        stage.setScene(scene);
-        stage.show();
+			if (alert.getResult() == ButtonType.YES) {
+				System.exit(0);
+			} else {
+				event.consume();
+			}
+		});
+		stage.setTitle("NutriFit");
+		stage.setResizable(false);
+		stage.centerOnScreen();
+		stage.setScene(scene);
+		stage.show();
 
-    }
+	}
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+	public static void main(String[] args) {
+		launch(args);
+	}
 }
