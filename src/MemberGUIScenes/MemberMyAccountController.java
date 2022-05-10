@@ -1034,17 +1034,17 @@ public class MemberMyAccountController implements Initializable {
         calculatorsButton.setLayoutX(0);
         calculatorsButton.setLayoutY(156);
 
-        healthyTipsButton.setLayoutX(0);
-        healthyTipsButton.setLayoutY(208);
+//        healthyTipsButton.setLayoutX(0);
+//        healthyTipsButton.setLayoutY(208);
 
         logOutButton.setLayoutX(0);
-        logOutButton.setLayoutY(260);
+        logOutButton.setLayoutY(208); //260
 
         AnchorPane adminMenuScene = new AnchorPane();
         adminMenuScene.setPrefWidth(180);
         adminMenuScene.setPrefHeight(425);
         adminMenuScene.setStyle("-fx-background-color : white");
-        adminMenuScene.getChildren().addAll(myAccButton, viewWorkoutButton, viewScheduleButton, calculatorsButton, healthyTipsButton, logOutButton);
+        adminMenuScene.getChildren().addAll(myAccButton, viewWorkoutButton, viewScheduleButton, calculatorsButton, logOutButton);
         
         myAccButton.setOnAction((event) -> {
             if (ConnectDB.CreateConnection() != null) {
@@ -1074,7 +1074,7 @@ public class MemberMyAccountController implements Initializable {
                     }
 
                 } catch (Exception e) {
-
+                	e.printStackTrace();
                 }
             }
 
@@ -1170,19 +1170,19 @@ public class MemberMyAccountController implements Initializable {
 
         });
         
-        healthyTipsButton.setOnAction((event) -> {
-            try {
-                Parent memberSignUpScene = FXMLLoader.load(getClass().getResource("HealthyTipsScene.fxml"));
-                Scene scene = new Scene(memberSignUpScene);
-                Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-                window.setResizable(false);
-                window.setScene(scene);
-                window.show();
-            } catch (IOException ex) {
-                Logger.getLogger(MemberMyAccountController.class.getName()).log(Level.SEVERE, null, ex);
-            }
-
-        });
+//        healthyTipsButton.setOnAction((event) -> {
+//            try {
+//                Parent memberSignUpScene = FXMLLoader.load(getClass().getResource("HealthyTipsScene.fxml"));
+//                Scene scene = new Scene(memberSignUpScene);
+//                Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+//                window.setResizable(false);
+//                window.setScene(scene);
+//                window.show();
+//            } catch (IOException ex) {
+//                Logger.getLogger(MemberMyAccountController.class.getName()).log(Level.SEVERE, null, ex);
+//            }
+//
+//        });
 
         logOutButton.setOnAction((event) -> {
             try {
