@@ -28,7 +28,7 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="358.0" layoutX="531.0" layoutY="106.0" stroke="#ffbb00" strokeType="INSIDE" strokeWidth="3.0" width="120.0" />
       <ImageView fitHeight="297.0" fitWidth="425.0" layoutX="36.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../NutriFitTrainerAdmin/src/Resources/20210202_133251.jpg" />
+            <Image url="@../Resources/20210202_133251.jpg" />
          </image>
       </ImageView>
       <Text fx:id="txtWelcome" fill="WHITE" layoutX="131.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W  E  L  C  O  M  E   T  O">
